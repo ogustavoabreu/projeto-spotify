@@ -3,6 +3,7 @@
 /* Layout */
 html, body, #home {
     height: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -70,6 +71,41 @@ nav.navbar-transparente {
     color: black;
 }
 
+/* Estrutura de conteúdos */
+.caixa {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#servicos {
+    background: white;
+}
+#recursos {
+    color: white;
+}
+
+#servicos h2,h3 {
+    color: #7c25f8;
+}
+
+#recursos h2 {
+    color: white;
+}
+
+#recursos h3 {
+    color: #9bf0e1;
+}
+
+.albuns {
+    padding: 10px 0;
+}
+
+.rotacionar {
+    -ms-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
 /* Tipografia */
 h1 {
     font-weight: 900;
@@ -77,6 +113,19 @@ h1 {
     margin-bottom: 50px;
     color: white;
 }
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
